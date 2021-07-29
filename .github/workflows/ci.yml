@@ -83,6 +83,10 @@ jobs:
       with:
         name: binaries
         path: Modelica
+    - name: Test CI
+      working-directory: ${{runner.workspace}}/Projects
+      run: omc CoolPropTest.mos
+
 
 
   build-windows:
