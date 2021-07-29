@@ -2,5 +2,13 @@ loadModel(Modelica);
 loadFile("../Modelica/ExternalMedia 3.3.0/package.mo");
 simulate(ExternalMedia.Test.CoolProp.CO2.TestStatesSupercritical);
 getErrorString();
+simulate(ExternalMedia.Test.CoolProp.TestMedium.TestConstants);
+simulate(ExternalMedia.Test.CoolProp.TestMedium.TestState);
+simulate(ExternalMedia.Test.CoolProp.TestMedium.TestSat);
+simulate(ExternalMedia.Test.CoolProp.TestMedium.TestStatesSat);
+simulate(ExternalMedia.Test.CoolProp.CO2.Transcritical);
+
+
+
 
 
